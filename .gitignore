@@ -1,0 +1,73 @@
+# Ignore target directory for each module
+**/target/
+
+# Maven-specific files
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/release.properties
+**/dependency-reduced-pom.xml
+
+# Ignore Eclipse files
+**/.classpath
+**/.project
+**/.settings/
+
+# IntelliJ IDEA files
+**/*.iml
+**/*.ipr
+**/*.iws
+
+# Spring Boot generated log files
+**/spring-boot-starter-logging.log
+
+# IDE-specific directories
+.idea/
+*.code-workspace
+
+# macOS
+.DS_Store
+
+# Thumbnails
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Compiled class file
+*.class
+
+# Logs
+*.log
+
+# JAR files
+*.jar
+
+# Gradle files
+.gradle/
+build/
+
+# User-specific files
+.idea/
+.gradle/
+build/
+
+# Exclude build and test output
+/target/
+/build/
+
+# Miscellaneous
+*.class
+*.lock
+*.log
+*.iml
+.idea/
+*.idea/
+*.ipr
+*.iws
+*.swp
+*.jar
+*.war
+*.ear
